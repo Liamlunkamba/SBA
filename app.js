@@ -117,9 +117,9 @@ const email = document.getElementById("email")
 
 form.addEventListener("submit", (e)=>{
   e.preventDefault()
-  console.log(firstName.value)
-  alert(`Thank you for your information ${firstName.value}`)
+  console.log(firstName.value,lastName.value,email.value)
+  alert(`Thank you for your information ${firstName.value},${lastName.value},${email.value}`)
   form.reset()
-  console.log("hi")
+  console.log("Welcome")
 
 })
