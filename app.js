@@ -120,5 +120,6 @@ form.addEventListener("submit", (e)=>{
   console.log(firstName.value)
   alert(`Thank you for your information ${firstName.value}`)
   form.reset()
+  console.log("hi")
 
 })
