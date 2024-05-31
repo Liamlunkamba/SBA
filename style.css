@@ -21,7 +21,7 @@
     margin: 0;
     display: grid;
     grid-template-rows: 3rem auto;
-    color: rgba(9, 19, 12, 0.927);
+    color: rgba(255, 255, 255, 0.927);
 
      
   }
@@ -79,6 +79,7 @@ nav a.active {
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   grid-gap: 20px;
   align-items: center;
+  
 }
 
 .card {
@@ -90,4 +91,6 @@ nav a.active {
   object-fit: cover;
   width: 100%;
   height: 100%;
+  margin-right: 100%;
+  margin-left: 200%;
 }
